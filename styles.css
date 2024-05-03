@@ -1,0 +1,45 @@
+body {
+  background: lightblue url('img_tree.gif') no-repeat fixed center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.product {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.product img {
+  max-width: 100%;
+}
+
+.cart {
+  margin-top: 50px;
+}
+
+.cart-items {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.cart-items div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.summary {
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
